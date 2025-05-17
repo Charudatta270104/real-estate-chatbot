@@ -1,4 +1,3 @@
-
 # Real Estate Analysis Chatbot
 
 ## Overview
@@ -25,6 +24,7 @@ The backend processes real estate data provided in an Excel file, which is parse
 ## Technologies Used
 
 ### Frontend
+
 - React
 - React Hooks
 - Axios (for API requests)
@@ -32,6 +32,7 @@ The backend processes real estate data provided in an Excel file, which is parse
 - CSS (for styling)
 
 ### Backend
+
 - Django (API endpoints)
 - Python (data processing)
 - Pandas (Excel file processing)
@@ -39,9 +40,30 @@ The backend processes real estate data provided in an Excel file, which is parse
 - Django REST framework (API integration)
 
 ### Optional
+
 - OpenAI API (for generating real LLM summaries)
 
 ---
+
+## Project Structure
+
+```
+real-estate-chatbot/
+├── backend/
+│   ├── real_estate_analysis/
+│   ├── manage.py
+│   ├── requirements.txt
+│   └── ...
+├── frontend/
+│   ├── src/
+│   │   ├── components/
+│   │   ├── App.js
+│   │   └── ...
+│   ├── package.json
+│   └── ...
+├── .gitignore
+└── README.md
+```
 
 ## Installation Instructions
 
@@ -130,22 +152,10 @@ The backend will parse this file and prepare the data for analysis.
 
 ---
 
-## Project Structure
+### Price Growth Chart for Wakad
 
-```
-real-estate-chatbot/
-├── backend/
-│   ├── real_estate_analysis/
-│   ├── manage.py
-│   ├── requirements.txt
-│   └── ...
-├── frontend/
-│   ├── src/
-│   │   ├── components/
-│   │   ├── App.js
-│   │   └── ...
-│   ├── package.json
-│   └── ...
-├── .gitignore
-└── README.md
-```
+![Price Growth Chart](/frontend/public/images/price_growth_wakad.png)
+
+### Demand Comparison for Akurdi and Wakad
+
+![Demand Comparison Chart](/frontend/public/images/demand_comparison_akurdi_wakad.png)
