@@ -15,9 +15,12 @@ const App = () => {
   const handleSubmit = async () => {
     if (!query.trim()) return;
     try {
-      const response = await axios.post("http://127.0.0.1:8000/api/analyze/", {
-        query,
-      });
+      const response = await axios.post(
+        "https://real-estate-chatbot-6e0t.onrender.com/api/analyze/",
+        {
+          query,
+        }
+      );
       setSummary(response.data.summary);
       setChartData(response.data.chart_data);
       setTableData(response.data.table_data);
