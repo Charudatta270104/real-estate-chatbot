@@ -160,6 +160,4 @@ The backend will parse this file and prepare the data for analysis.
 
 ![Demand Comparison Chart](/frontend/public/images/demand_comparison_akurdi_wakad.png)
 
-
-
-### [🚀 View Live Demo](https://your-live-link-here.com)
+### [🚀 View Live Demo](https://real-estate-chatbot-1-bn8e.onrender.com/)
