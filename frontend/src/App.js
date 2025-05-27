@@ -16,7 +16,7 @@ const App = () => {
     if (!query.trim()) return;
     try {
       const response = await axios.post(
-        "https://real-estate-chatbot-ygje.onrender.com/api/analyze/",
+        "https://real-estate-chatbot-qna4.onrender.com/api/analyze/",
         {
           query,
         }
